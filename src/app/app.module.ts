@@ -6,10 +6,14 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http'; 
 import { PostService } from './services/post.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PostListingComponent } from './pages/post-listing/post-listing.component';
+import { SinglePostComponent } from './pages/single-post/single-post.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PostListingComponent,
+    SinglePostComponent
   ],
   imports: [
     BrowserModule,
